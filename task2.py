@@ -29,5 +29,5 @@ elif int(ps + 0.5) ** 2 == ip:
     print ("is only a perfect square.")
 elif math.pow(pc,3) == ip:
     print("is only a perfect cube.")
-    else:
-    print ("None")
+else:
+print ("None")
