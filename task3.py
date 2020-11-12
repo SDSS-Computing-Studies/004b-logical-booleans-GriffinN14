@@ -18,9 +18,9 @@ Enter a number: -3
 ip = input("Enter number ")
 ip = float(ip)
 nit = int(ip)
-if float(ip) > 0 and float(ip) == nit:
+if ip > 0 and ip == nit:
     print("is a positive integer")
-elif float(ip) < 0 and float(ip) == int(ip):
+elif ip < 0 and ip == int(ip):
     print ("is not a positive integer")
 else:
     print ("is not a interger")
