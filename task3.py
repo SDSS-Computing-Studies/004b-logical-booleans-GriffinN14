@@ -20,7 +20,7 @@ ip = float(ip)
 nit = int(ip)
 if ip > 0 and ip == nit:
     print("is a positive integer")
-elif ip < 0 and ip == int(ip):
+elif ip < 0 and ip == nit:
     print ("is not a positive integer")
 else:
     print ("is not a interger")
