@@ -19,7 +19,7 @@ ip = input("Enter number ")
 ip = float(ip)
 nit = int(ip)
 if float(ip) > 0 and float(ip) == nit:
-    print("is a positive integer.")
+    print("is a positive integer")
 elif float(ip) < 0 and float(ip) == int(ip):
     print ("is not a positive integer")
 else:
